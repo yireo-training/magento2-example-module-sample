@@ -1,14 +1,14 @@
 <?php
 /**
- * TestModuleSample plugin for Magento
+ * ExampleModuleSample plugin for Magento
  *
- * @package     Yireo_TestModuleSample
+ * @package     Yireo_ExampleModuleSample
  * @author      Yireo (https://www.yireo.com/)
  * @copyright   Copyright 2017 Yireo (https://www.yireo.com/)
  * @license     Open Source License (OSL v3)
  */
 
-namespace Yireo\TestModuleSample\Console\Command;
+namespace Yireo\ExampleModuleSample\Console\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface as Input;
@@ -17,7 +17,7 @@ use Symfony\Component\Console\Output\OutputInterface as Output;
 /**
  * Class ExampleCommand
  *
- * @package Yireo\TestModuleSample\Console\Command
+ * @package Yireo\ExampleModuleSample\Console\Command
  */
 class ExampleCommand extends Command
 {
@@ -41,7 +41,7 @@ class ExampleCommand extends Command
      */
     protected function configure()
     {
-        $this->setName('yireo:example')->setDescription('Test Module Sample');
+        $this->setName('yireo:example')->setDescription('Example Module Sample');
     }
 
     /**

@@ -3,8 +3,8 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="showTableNames" xsi:type="object">Yireo\TestModuleSample\Console\Command\ShowTableNamesCommand</item>
-                <item name="example" xsi:type="object">Yireo\TestModuleSample\Console\Command\ExampleCommand</item>
+                <item name="showTableNames" xsi:type="object">Yireo\ExampleModuleSample\Console\Command\ShowTableNamesCommand</item>
+                <item name="example" xsi:type="object">Yireo\ExampleModuleSample\Console\Command\ExampleCommand</item>
             </argument>
         </arguments>
     </type>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Catalog:etc/product_types.xsd">
-    <type name="sample" label="Sample Product" modelInstance="Yireo\TestModuleSample\Model\Product\Type\Sample" indexPriority="99" sortOrder="99">
-        <priceModel instance="Yireo\TestModuleSample\Model\Product\Type\Sample\Price" />
+    <type name="sample" label="Sample Product" modelInstance="Yireo\ExampleModuleSample\Model\Product\Type\Sample" indexPriority="99" sortOrder="99">
+        <priceModel instance="Yireo\ExampleModuleSample\Model\Product\Type\Sample\Price" />
         <customAttributes>
             <attribute name="discount" value="0" />
             <attribute name="sample" value="true" />
