@@ -27,7 +27,7 @@ class ShowTableNamesCommand extends Command
     protected $setup;
 
     public function __construct(
-        \Magento\Setup\Module\Setup $setup,
+        \Magento\Setup\Module\Setup\Proxy $setup,
         $name = null
     )
     {
