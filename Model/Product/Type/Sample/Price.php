@@ -7,9 +7,11 @@
  * @copyright   Copyright 2017 Yireo (https://www.yireo.com/)
  * @license     Open Source License (OSL v3)
  */
+declare(strict_types=1);
 
 namespace Yireo\ExampleModuleSample\Model\Product\Type\Sample;
 
+use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\Product\Type\Price as ProductPrice;
 
 /**
@@ -20,7 +22,7 @@ use Magento\Catalog\Model\Product\Type\Price as ProductPrice;
 class Price extends ProductPrice
 {
     /**
-     * @param \Magento\Catalog\Model\Product $product
+     * @param Product $product
      *
      * @return float
      */

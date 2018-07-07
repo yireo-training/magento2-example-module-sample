@@ -7,9 +7,11 @@
 * @copyright   Copyright 2017 Yireo (https://www.yireo.com/)
 * @license     Open Source License (OSL v3)
 */
+declare(strict_types=1);
 
 namespace Yireo\ExampleModuleSample\Model\Product\Type;
 
+use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\Product\Type\AbstractType;
 
 /**
@@ -25,15 +27,15 @@ class Sample extends AbstractType
     const TYPE_CODE = 'sample';
 
     /**
-     * @param \Magento\Catalog\Model\Product $product
+     * @param Product $product
      */
-    public function deleteTypeSpecificData(\Magento\Catalog\Model\Product $product)
+    public function deleteTypeSpecificData(Product $product)
     {
         return;
     }
 
     /**
-     * @param \Magento\Catalog\Model\Product $product
+     * @param Product $product
      *
      * @return bool
      */

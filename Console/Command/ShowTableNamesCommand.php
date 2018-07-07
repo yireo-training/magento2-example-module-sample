@@ -7,9 +7,11 @@
  * @copyright   Copyright 2017 Yireo (https://www.yireo.com/)
  * @license     Open Source License (OSL v3)
  */
+declare(strict_types=1);
 
 namespace Yireo\ExampleModuleSample\Console\Command;
 
+use Magento\Setup\Module\Setup;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface as Input;
 use Symfony\Component\Console\Output\OutputInterface as Output;
@@ -22,12 +24,12 @@ use Symfony\Component\Console\Output\OutputInterface as Output;
 class ShowTableNamesCommand extends Command
 {
     /**
-     * @var \Magento\Setup\Module\Setup
+     * @var Setup
      */
     protected $setup;
 
     public function __construct(
-        \Magento\Setup\Module\Setup $setup,
+        Setup $setup,
         $name = null
     )
     {
