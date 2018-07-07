@@ -31,8 +31,7 @@ class ShowTableNamesCommand extends Command
     public function __construct(
         Setup $setup,
         $name = null
-    )
-    {
+    ) {
         $this->setup = $setup;
 
         return parent::__construct($name);
